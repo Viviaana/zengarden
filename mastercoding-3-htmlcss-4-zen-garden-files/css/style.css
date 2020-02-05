@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+* {
+    padding:0;
+    margin: 0;
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+
+}
+
+header {
+    background-image: url(../img/huntington.png);
+    color: white;
+    margin: 0px;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 4px 4px #000000;
+}
+h2 {
+    font-family: 'Satisfy', cursive;
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px;
+}
+
+h3 {
+    color: black;
+    margin: 25px 50px ;
+}
+
+
+a {
+    color: #000000;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.summary {
+    margin-left: 60px;
+}
+
+.preamble {
+    margin-left: 60px;
+}
+
+.explanation {
+    margin-left: 60px;
+}
+
+.participation {
+    background: url(../img/bamboo.png);
+    background-color: rgba(61, 142, 65, 0.5);
+    color: white;
+    margin-left: 60px;
+    background-size: 100% 100%;
+
+}
+.benefits {
+    margin-left: 60px;
+    color: white;
+    background: url(../img/bamboo.png);
+    background-color: rgba(61, 142, 65, 0.5);
+}
+
+.requirements {
+    margin-left: 60px;
+}
+
+[role = "contentinfo"] {
+    background-color: rgba(61, 142, 65, 0.5);
+    height: 100px;
+
+}
+
+footer {
+    text-align: center;
+    filter: invert(100%);
+    background-color: rgb(238, 175, 222);
+}
+
+i {
+    height: 60px;
+}
