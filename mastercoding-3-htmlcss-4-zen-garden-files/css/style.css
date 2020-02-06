@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 * {
+    box-sizing: border-box;
     padding:0;
     margin: 0;
 }
@@ -16,7 +17,7 @@ body {
 header {
     background-image: url(../img/huntington.png);
     color: white;
-    margin: 0px;
+    margin: 0px 0px 20px 0px;
     padding: 50px;
     text-align: center;
 }
@@ -26,69 +27,77 @@ h1 {
     font-family: 'Roboto', sans-serif;
     text-shadow: 4px 4px #000000;
 }
+
 h2 {
     font-family: 'Satisfy', cursive;
     background: url(../img/zen.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 40% ;
     margin: 10px;
 }
 
 h3 {
     color: black;
-    margin: 25px 50px ;
+    margin: 25px 60px ;
 }
-
 
 a {
     color: #000000;
     font-size: 15px;
     text-decoration: none;
 }
-
-.summary {
-    margin-left: 60px;
+a:hover {
+    text-decoration: underline;
 }
 
-.preamble {
-    margin-left: 60px;
+p {
+    margin: 0px 60px 0px 60px;
 }
 
-.explanation {
-    margin-left: 60px;
-}
-
-.participation {
+div.participation, div.benefits {
     background: url(../img/bamboo.png);
     background-color: rgba(61, 142, 65, 0.5);
     color: white;
-    margin-left: 60px;
-    background-size: 100% 100%;
-
-}
-.benefits {
-    margin-left: 60px;
-    color: white;
-    background: url(../img/bamboo.png);
-    background-color: rgba(61, 142, 65, 0.5);
-}
-
-.requirements {
-    margin-left: 60px;
+    background-size: 100%;
+    background-repeat: repeat;
 }
 
 [role = "contentinfo"] {
     background-color: rgba(61, 142, 65, 0.5);
-    height: 100px;
+    height: 80px;
+    padding-top: 25px;
+    text-align: center;
+    width: 100%;
+    color: grey;
+    margin: 15px 0px 0px 0px
+}
+[role = "contentinfo"] a {
+    color: white;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+}
 
+[role = "contentinfo"] a:hover {
+    color: white;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    text-decoration: underline;
 }
 
 footer {
     text-align: center;
-    filter: invert(100%);
-    background-color: rgb(238, 175, 222);
+    background-color:#006666;
+    height: 55px;
+    
 }
 
-i {
-    height: 60px;
+footer a{
+    color:white;
+    font-size: 40px;
+}
+
+footer a:hover{
+    color: grey;
+    font-size: 40px;
 }
