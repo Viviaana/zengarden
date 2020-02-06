@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-image: url(/huntington.png);
+    background-image: url(huntington.png);
     color: white;
     margin: 0px 0px 0px 0px;
     padding: 50px;
@@ -31,7 +31,7 @@ h1 {
 
 h2 {
     font-family: 'Satisfy', cursive;
-    background: url(/zen.svg);
+    background: url(zen.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 40% ;
@@ -59,7 +59,7 @@ p {
 }
 
 .participation{
-    background: url(/bamboo.png);
+    background: url(bamboo.png);
     background-color: rgba(61, 142, 65, 0.5);
     color: white;
     background-size: 100%;
