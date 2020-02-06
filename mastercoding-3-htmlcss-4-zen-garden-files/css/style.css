@@ -17,7 +17,7 @@ body {
 header {
     background-image: url(../img/huntington.png);
     color: white;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 50px;
     text-align: center;
 }
@@ -26,6 +26,7 @@ h1 {
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     text-shadow: 4px 4px #000000;
+    padding: 25px; 
 }
 
 h2 {
@@ -35,11 +36,13 @@ h2 {
     background-size: contain;
     background-position: 40% ;
     margin: 10px;
+    color: silver;
 }
 
 h3 {
     color: black;
-    margin: 25px 60px ;
+    margin: 0px 75px;
+    padding-top: 20px;
 }
 
 a {
@@ -52,25 +55,38 @@ a:hover {
 }
 
 p {
-    margin: 0px 60px 0px 60px;
+    margin: 20px 75px 0px 75px;
 }
 
-div.participation, div.benefits {
+.participation{
     background: url(../img/bamboo.png);
     background-color: rgba(61, 142, 65, 0.5);
     color: white;
     background-size: 100%;
-    background-repeat: repeat;
+
+}
+.benefits{
+    background: url(../img/bamboo.png);
+    background-color: rgba(61, 142, 65, 0.5);
+    color: white;
+    background-size: 100%;
+    margin-top: 0px;
+    border-top: 0px;
+}
+
+#zen-participation {
+    margin-bottom: 0px;
 }
 
 [role = "contentinfo"] {
-    background-color: rgba(61, 142, 65, 0.5);
+    background-color: #769D7A;
     height: 80px;
     padding-top: 25px;
     text-align: center;
     width: 100%;
-    color: grey;
-    margin: 15px 0px 0px 0px
+    color: #e0e0eb;
+    margin: 15px 0px 0px 0px;
+    font-size: 15px;
 }
 [role = "contentinfo"] a {
     color: white;
@@ -87,7 +103,7 @@ div.participation, div.benefits {
 
 footer {
     text-align: center;
-    background-color:#006666;
+    background-color:#234C4B;
     height: 55px;
     
 }
@@ -100,4 +116,65 @@ footer a{
 footer a:hover{
     color: grey;
     font-size: 40px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D6E3D6;
+  }
+
+li {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#design-selection li{
+    border-bottom: 1px solid silver;
+    padding: 40px;
+}
+
+#design-archives li{
+    border-bottom: 1px solid silver;
+    padding: 40px;
+}
+
+.select {
+    display: none;
+}
+.archives {
+    display: none;
+}
+.resources {
+    display: none;
+}
+
+.zen-resources ul{
+    background: url(../img/bamboo.png);
+    background-color: rgba(61, 142, 65, 0.5);
+    padding: 20px;
+}
+
+.zen-resources li {
+    padding: 10px;
+}
+
+.zen-resources a{
+    color: darkgreen;
+    padding: 10px;
+}
+
+.designer-name {
+    color: silver;
+}
+
+.next a{
+    color: silver;
+}
+.viewall a{
+    color: silver;
 }
