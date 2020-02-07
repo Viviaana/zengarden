@@ -16,6 +16,7 @@ body {
 
 header {
     background-image: url(huntington.png);
+    background-position: center;
     color: white;
     margin: 0px 0px 0px 0px;
     padding: 50px;
